@@ -102,4 +102,5 @@ const generateMessage = function() {
     }
 }
 
-console.log(generateMessage());
+var messageElement = document.getElementById('randomMessage');
+messageElement.textContent = generateMessage();
